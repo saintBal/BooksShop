@@ -13,10 +13,9 @@ public class Start {
 
 
         UserInterfase visitor = new AnonimUser("Гость");
-        UserInterfase visitor2 = new AnonimUser("Rjcnm");
         UserInterfase vipVisitor = new VipUser("Александр", "Балакирев", 26, 30, true);
 
-        GoodsInterfase king = new Carrie("Кэри", 150);
+        GoodsInterfase king = new Carrie("Стивен Кинг", 150);
 
 
     }

@@ -3,13 +3,13 @@ package BooksShop.core.goods;
 
 public class Carrie extends BaseGoods {
 
-    public Carrie(String name, double price) {
-        super(name, price);
+    public Carrie(String autorName, double price) {
+        super(autorName, price);
     }
 
     @Override
-    public String getAutorName() {
-        return "Стивен Кинг";
+    public String getName() {
+        return "Кэрри";
     }
 
     @Override
